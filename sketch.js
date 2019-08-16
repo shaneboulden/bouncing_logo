@@ -11,10 +11,13 @@ let velocity = {
 
 let dvd;
 
+function preload() {
+  dvd = loadImage("assets/white_dvd.png");
+}
+
 function setup() {
   // this creates the initial window and loads the image
   createCanvas(window.innerWidth, window.innerHeight);
-  dvd = loadImage("assets/white_dvd.png");
 }
 
 function draw() {
